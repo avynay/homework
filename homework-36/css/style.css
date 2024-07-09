@@ -14,7 +14,7 @@ padding-right: 30%;
 }
 .child{
   display: inline-block;
-  max-width: 225px;
+  max-width: 215px;
 padding: 19px 11px;
 margin: 10px 2px 8px 5px;
 box-shadow: inset 2px 2px 20px rgba(0, 0, 0, 0.671);
