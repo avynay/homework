@@ -1,0 +1,51 @@
+body{
+  font-size: 35px;
+  background: #191a1e;
+}
+tfoot,
+tr,
+td{
+  border: 1px solid #000;
+}
+
+table{
+  margin: 0 auto;
+  border: 3px solid transparent;
+  background: linear-gradient(#eee, #eee 0) padding-box,
+  linear-gradient(to bottom,#ff0051, #0e1ff2,#237500)border-box;
+}
+
+caption{
+  border: 3px solid #ff0000;
+  border-bottom: 0px;
+  color: #37b600;
+  background: #000000;
+}
+
+th{
+  border: 1px solid #470036;
+  color: #009488;
+  background: #010658;
+}
+
+.centered{
+  text-align: center;
+  background: #009488;
+  color: #000;
+}
+
+tbody td{
+  border: 1px solid #0e1ff2;
+  background: #000;
+  color: #237500;
+  font-size: 35px;
+}
+.footer-col{
+  text-align: center;
+}
+.footer-td{
+  border: 3px solid #237500;
+  background: #252525;
+  color: #fffffF;
+  font-style: italic;
+}
