@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дз по формам</title>
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <form id="form-1" name="form" class="form-example">
+    <div class="form-example form-example-1">
+      <label class="inp-name" for="input-name">Enter your name:</label>
+      <input placeholder="Name" type="text" name="input1" id="input-name">
+    </div>
+    <div class="form-example form-example-2">
+      <label class="inp-email" for="input-email">Enter your email:</label>
+      <input placeholder="Example@gmail.com" type="text" name="input2" id="input-email">
+    </div>
+    <div class="form-example form-example-3">
+      <label class="inp-phone" for="input-tel">Enter your phone:</label>
+      <input placeholder="+7(999)999-99-99" type="text" name="input3" id="input-tel">
+    </div>
+    <div>
+      <textarea placeholder="Введите текст" name="ta-1" id="textarea-1" cols="35" rows="10"></textarea>
+    </div>
+    <select name="form-select" id="select">
+      <option value="">--выбрать--</option>
+      <option value="var1">Вариант 1</option>
+      <option value="var2">Вариант 2</option>
+      <option value="var3">Вариант 3</option>
+      <option value="var4">Вариант 4</option>
+      <option value="var5">Вариант 5</option>
+    </select>
+    <div class="form-example form-example-5">
+      <button class="btn-submit" type="submit">
+        Отправить
+      </button>
+      <button class="btn-reset" type="reset">
+        Сброс
+      </button>
+    </div>
+  </form>
+  <form>
+    <fieldset class="field-1">
+      <legend>Просто для примера</legend>
+      <input placeholder="Введите текст" autocomplete="bday-day" type="text">
+      <input placeholder="Введите текст" autocomplete="bday-month" type="text">
+      <input placeholder="Введите текст" autocomplete="bday-year" type="text">
+      <input placeholder="Введите текст" type="text">
+      <input placeholder="Введите текст" type="text">
+    </fieldset>
+    <fieldset class="subm-1">
+      <legend>Конец,гык</legend>
+      <button class="btn-submit btm-mr" type="submit">Отправить</button>
+      <button class="btn-reset" type="reset">Сброс</button>
+    </fieldset>
+  </form>
+</body>
+
+</html>

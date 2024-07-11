@@ -1,0 +1,70 @@
+*{
+  font-size: 20px;
+}
+label,
+input {
+  margin-bottom: 10px;
+}
+#form-1{
+  margin-bottom: 90px;
+}
+.inp-email{
+  margin-right: 9px;
+}
+#input-email{
+  border: 1px solid rgb(163, 79, 0);
+}
+.inp-name{
+  margin-right: 10px;
+}
+#input-name{
+  border: 1px solid rgb(92, 0, 0);
+}
+.inp-phone{
+  margin-right: 5px;
+}
+#input-tel{
+  border: 1px solid rgb(0, 51, 0);
+}
+#textarea-1{
+  margin-bottom: 10px;
+}
+#select{
+  margin-bottom: 10px;
+  color: rgb(58, 58, 58);
+}
+
+.btn-submit{
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 3px;
+  background: #353535;
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+}
+.btn-reset{
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  padding: 10px 32.82px;
+  border-radius: 3px;
+  background: #353535;
+  box-shadow: 0 -3px #a73535 inset;
+}
+.field-1{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+}
+.subm-1{
+  max-width: 200px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  border: none;
+  border-top: 2px solid #6c6c6c;
+}
+.btm-mr{
+  margin-right: 5px;
+}
