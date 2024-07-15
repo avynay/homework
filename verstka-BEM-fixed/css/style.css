@@ -1,0 +1,101 @@
+body{
+  background: #1d1d1d;
+}
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.hero__heading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+}
+.heading {
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+.heading__subtitle {
+  color: #bb9356;
+    font-family: 'Ruthie', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.heading__title {
+  font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+}
+.heading__icon {
+  margin: 22px 0 25px;
+}
+
+.heading__paragraph {
+  font-family: 'Poppins', sans-serif;
+  color: #a5a5a5;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 50px;
+  padding: 0 40px;
+}
+.heading__img {
+  margin-bottom: 100px;
+}
+/* ========================================= */
+/* dishes */
+
+.dishes__inner{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  display: flex;
+  max-width: 585px;
+  padding-left: 15px;
+}
+.box__content{
+  max-width: 233px;
+  margin: 10px;
+  padding: 30px 15px;
+  border: 1px dashed #cdaf80;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box__subtitle{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #bb9356;
+}
+.box__title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  max-width: 233px;
+}
+.box__paragraph {
+  font-family: 'Poppins', sans-serif;
+  color: #9b9b9b;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+}
+.dishes__overlay {
+  max-width: 285px;
+}
+.box--reversed{
+  flex-direction: row-reverse;
+}
