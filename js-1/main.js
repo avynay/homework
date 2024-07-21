@@ -1,6 +1,5 @@
 let message = 'Hello'
 console.log(message)
-message = 'Hi'
 
 const firstName = 'Andrey'
 const secondName = 'Len'
